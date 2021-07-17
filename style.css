@@ -1,0 +1,27 @@
+.my-style {
+  background-color: #C9D8B6;
+  color: #57837B;
+  border: 3px solid #000;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 400;
+}
+
+/* Avoid using ids */
+#my-id {
+  background-color: #D54C4C;
+  color: #8D2828;
+}
+
+/* Avoid element selectors too unless you want core styling */
+p {
+  background-color: #96BAFF;
+  color: #C6B4CE;
+}
+
+/* Don't overwrite styles */
+h1 {
+  color: #000;
+}
